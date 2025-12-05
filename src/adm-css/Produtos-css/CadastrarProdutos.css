@@ -1,0 +1,136 @@
+.container-formulario {
+  margin-left: 40vh;
+}
+
+.input-nome-produto {
+  width: 60vh;
+  height: 5vh;
+  border-radius: 0.7vh;
+  border-width: 0.2vh;
+  margin-top: 1vh;
+  padding: 1vh;
+}
+
+.textarea {
+  width: 60vh;
+  height: 25vh;
+  margin-top: 1vh;
+  border-radius: 0.7vh;
+  border-width: 0.2vh;
+  padding: 1vh;
+}
+
+.dados-cadastro {
+  margin-left: 4vh;
+  margin-top: 3vh;
+}
+
+.select {
+  width: 60vh;
+  height: 5vh;
+  margin-top: 1vh;
+  border-radius: 0.7vh;
+  border-width: 0.2vh;
+}
+
+.titulo-pagina-novo-produto {
+  margin-top: 5vh;
+  margin-left: 7vh;
+}
+
+.titulo-topo-pagina {
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+.container-das-imagens {
+  width: 70vh;
+  margin-left: 7vh;
+}
+
+.container-cadastro-produto {
+  /*campo responsável pela cor branca de todo o cadastro do produto*/
+  margin-left: 7vh;
+  margin-top: 2vh;
+  width: 146vh;
+  height: 120vh;
+  background-color: white;
+  display: flex;
+}
+
+.foto-roupa {
+  border-radius: 0.7vh;
+  border-width: 0.2vh;
+  border: solid;
+  border-width: 1px;
+  margin-top: 7vh;
+  text-align: center; /*alinha todo o conteúdo da roupa no centro da div*/
+}
+
+.foto-roupa svg {
+  margin-top: 3vh;
+  width: 32vh;
+  height: 32vh;
+}
+
+.foto-roupa input {
+  margin: auto;
+}
+
+input[type="file"] {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  width: 40vh;
+  height: 8vh;
+}
+
+/* Personaliza o botão de anexar imagem da roupa*/
+input[type="file"]::file-selector-button {
+  background-color: rgba(64, 123, 255, 1);
+  border: none;
+  color: white;
+  width: 25vh;
+  height: 4vh;
+  font-size: 2.4vh;
+  margin-bottom: 43vh;
+}
+
+.container-texto-galeria {
+  margin-top: 3vh;
+}
+
+.galeria-produto {
+  padding: 10vh;
+  border: 2px dashed #bdbdbd; /* tracejado + cor cinza clara */
+  border-radius: 6px; /* bordas arredondadas */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.botoes-adicionar-cancelar {
+  margin-top: 3vh;
+}
+
+.botao-adicionar,
+.botao-cancelar {
+  border: none;
+  color: white;
+  margin-right: 1vh;
+  padding: 2vh 12vh;
+  border-radius: 1vh;
+  cursor: pointer;
+}
+
+.botao-adicionar {
+  background-color: rgba(35, 35, 33, 1);
+}
+
+.botao-cancelar {
+  border: solid;
+  border-color: rgba(35, 35, 33, 1);
+  border-width: 0.3vh;
+  color: rgba(35, 35, 33, 1);
+}

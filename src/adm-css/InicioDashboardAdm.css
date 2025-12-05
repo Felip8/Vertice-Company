@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+}
+
+.container-dashboard {
+  width: 60vh;
+  height: 35vh;
+  box-shadow: 0vh 0.3vh 0.4vh gray;
+  display: flex;
+  margin-left: 10vh;
+  margin-top: 7vh;
+  background-color: white;
+}
+
+.header-dashboard {
+  width: 60vh;
+  height: 7vh;
+  background-color: rgba(64, 123, 255, 1);
+}
+
+.texto-header-dashboard {
+  color: white;
+  margin-left: 2.5vh;
+  margin-top: 1.5vh;
+  font-size: 3vh;
+}
+
+.container-dashboards {
+  margin-left: 40vh;
+  display: flex;
+}

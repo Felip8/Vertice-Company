@@ -1,0 +1,38 @@
+.tabela-produtos {
+  margin-top: 2vh;
+}
+
+table {
+  border: none; /*corpo inteiro da tabela*/
+  color: white;
+  border-spacing: 0;
+  box-shadow: 0.2vh 0.2vh 0.5vh gray;
+  height: 25vh;
+}
+
+thead {
+  border: none; /*coluna inteira do header*/
+  background-color: rgba(64, 123, 255, 1);
+  height: 6vh;
+}
+
+.checkbox {
+  width: 10vh; /*tamanho do campo do checkbox no header da tabela*/
+}
+
+th {
+  width: 25vh; /*tamanho dos campos do header*/
+  border: none;
+}
+
+td {
+  border: none;
+}
+
+tr {
+  text-align: center;
+}
+
+td input {
+  margin-top: 2vh;
+}

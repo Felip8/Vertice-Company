@@ -1,0 +1,5 @@
+.container-componentes-produtos {
+  display: flex;
+  margin-top: 3vh;
+  background-color: red;
+}

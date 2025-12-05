@@ -1,0 +1,152 @@
+.corpo-principal {
+  margin-left: 40vh;
+}
+
+.titulo-botao {
+  margin-top: 5vh;
+  margin-left: 7vh;
+  display: flex;
+  justify-content: space-between; /* botão na direita */
+  align-items: center; /* centraliza verticalmente */
+  width: 130%; /* evita sobreposição e permite o flex funcionar */
+}
+
+.titulo-pagina {
+  font-size: 4vh;
+  font-weight: bold;
+  display: inline;
+}
+
+.botao-cadastrar-produto {
+  /* margin-left removida pra evitar sobreposição */
+  background-color: black;
+  color: white;
+  border: none;
+  width: 30vh;
+  height: 7vh;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  border-radius: 1.4vh;
+  cursor: pointer;
+  display: flex; /* CORREÇÃO: garantir centralização */
+}
+
+.botao-cadastrar-produto span {
+  margin-left: 0.7vh;
+}
+
+.container-engloba-tudo-do-produto {
+  width: 55vh;
+  height: 44vh;
+  margin-left: 7vh;
+  background-color: white;
+  padding-left: 2vh;
+  padding-top: 2vh;
+  border-radius: 2vh;
+}
+
+/*CONTAINER PRODUTO 👇*/
+.container-produto {
+  display: flex;
+  margin-top: 2vh;
+}
+
+.container-imagem {
+  background-color: #d1d1d1; /* cinza igual ao da foto */
+  width: 11vh;
+  height: 11vh;
+  border-radius: 1.3vh;
+  display: flex;
+  justify-content: center; /* centraliza horizontal */
+  align-items: center; /* centraliza vertical */
+}
+
+.container-imagem img {
+  width: 10vh; /* proporção parecida ao exemplo */
+  height: auto; /* mantém proporção correta */
+  display: inline;
+}
+
+.texto-tres-pontinhos {
+  background-color: rgb(184, 184, 184);
+  width: 5vh;
+  text-align: center;
+  padding-bottom: 1.5vh;
+  border-radius: 1vh;
+  margin-left: 10vh;
+  cursor: pointer;
+}
+
+.info-produto {
+  margin-left: 4vh;
+}
+
+.nome-produto {
+  font-size: 2.3vh;
+}
+
+.nome-tipo-produto {
+  font-size: 2vh;
+  color: rgba(109, 109, 109, 1);
+}
+
+.preco-produto {
+  font-size: 2vh;
+  font-weight: bold;
+  margin-top: 2vh;
+}
+/*CONTAINER PRODUTO ☝️*/
+
+/*============================================*/
+
+/*CONTAINER DESCRIÇÃO 👇*/
+.titulo-descricao {
+  font-size: 2.3vh;
+  font-weight: bold;
+  margin-top: 1vh;
+}
+
+.texto-descricao {
+  width: 50vh;
+  font-size: 2.3vh;
+  color: rgba(109, 109, 109, 1);
+  margin-top: 2vh;
+}
+/*CONTAINER DESCRIÇÃO ☝️*/
+
+/*============================================*/
+
+/*container-venda-estoque 👇*/
+.container-venda-estoque {
+  border: solid;
+  border-radius: 1vh;
+  border-width: 0.3vh;
+  border-color: rgba(109, 109, 109, 1);
+  width: 50vh;
+  height: 11vh;
+  margin-top: 3vh;
+}
+
+.texto-venda,
+.texto-estoque {
+  font-size: 2.3vh;
+  margin-left: 2vh;
+  margin-top: 1.4vh;
+}
+
+.texto-venda-e-numero-aparecendo,
+.texto-estoque-e-numero-aparecendo {
+  display: flex;
+  align-items: baseline;
+}
+
+.texto-numero-venda {
+  font-size: 2.3vh;
+  margin-left: 30vh;
+}
+
+.texto-numero-estoque {
+  font-size: 2.3vh;
+  margin-left: 29vh;
+}
+/*container-venda-estoque ☝️*/

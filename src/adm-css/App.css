@@ -1,0 +1,21 @@
+/*
+IMPORTANTE RESSALTAR:
+Nos arquivos do projeto antigo, cada css tinha um container com display flex para deixar os elementos
+um do lado dos outros. Agora, como o menu lateral é fixo e separado do conteúdo principal, esse container
+não é mais necessário nos arquivos de css das páginas, apenas no App.css para englobar o menu lateral 
+e o conteúdo principal.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:wght@500&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.container-adm {
+  display: flex;
+  width: 100vh;
+  height: 100vh;
+}
+body {
+  background-color: rgb(202, 202, 202);
+}
+
+* {
+  font-family: "DM Sans", sans-serif;
+}
