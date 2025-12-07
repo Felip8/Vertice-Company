@@ -1,10 +1,9 @@
-import "../adm-css/InicioDashboardAdm.css";
-export default function InicioDashboardAdm() {
+export default function Pedidos() {
   return (
     <>
       <div className="container-renderizacao">
         <div className="container-dashboard">
-          <div className="topo-container">Dashboard</div>
+          <div className="topo-container">Pedidos</div>
           <div className="container-search">
             <div className="container-search1">
               <p>Nome</p>
@@ -29,7 +28,3 @@ export default function InicioDashboardAdm() {
     </>
   );
 }
-
-/*esse é o componente que carrega os dashboard
-eu separei esse arquivo do ContainerDashboard pois aqui ele apenas chama os componentes criados.
-Para criar um componente é necessário ir no arquivo ContainerDashboard */

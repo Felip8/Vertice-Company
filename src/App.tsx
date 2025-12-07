@@ -7,6 +7,7 @@ import MenuLateralAdm from "./componentes/MenuLateralAdm.jsx";
 import InicioDashboardAdm from "./componentes/InicioDashboardAdm.jsx";
 import ProdutosAdm from "./componentes/ProdutosAdm.jsx";
 import CadastrarProdutos from "./componentes/ComponentesProdutos/CadastrarProdutos.jsx";
+import Pedidos from "./componentes/Pedidos.jsx";
 
 /*esse é o arquivo que vai mostrar a tela inicial do adm
 aqui ele está trazendo o menu lateral.
@@ -31,6 +32,7 @@ function App() {
               path="/CadastrarProdutos"
               element={<CadastrarProdutos />}
             ></Route>
+            <Route path="/Pedidos" element={<Pedidos />} />
           </Routes>
         </BrowserRouter>
       </div>
