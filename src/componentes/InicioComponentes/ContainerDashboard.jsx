@@ -4,11 +4,21 @@ export default function ContainerDashboard() {
     <>
       <div className="container-dashboard">
         <div className="topo-container">Dashboard</div>
-        <input
-          type="text"
-          className="input-dashboard"
-          placeholder="Nome do produto"
-        />
+        <div className="container-search">
+          <div className="container-search1">
+            <p>Nome</p>
+            <input
+              type="text"
+              className="input-dashboard"
+              placeholder="Pesquise pelo nome"
+            />
+          </div>
+          <div className="container-search2">
+            <p>Data</p>
+            <input type="date" className="input-date" />
+          </div>
+        </div>
+
         <div className="botao-pesquisar">
           <button>Pesquisar</button>
         </div>
