@@ -45,6 +45,7 @@
 
 .container-das-imagens {
   width: 70vh;
+  height: 50vh;
   margin-left: 7vh;
 }
 
@@ -58,41 +59,36 @@
   display: flex;
 }
 
+/* Esconde totalmente o input file */
+.input-escondido {
+  display: none;
+}
+
+/* Torna a área da roupa clicável */
 .foto-roupa {
   border-radius: 0.7vh;
-  border-width: 0.2vh;
-  border: solid;
-  border-width: 1px;
-  margin-top: 7vh;
-  text-align: center; /*alinha todo o conteúdo da roupa no centro da div*/
-}
-
-.foto-roupa svg {
-  margin-top: 3vh;
-  width: 32vh;
-  height: 32vh;
-}
-
-.foto-roupa input {
-  margin: auto;
-}
-
-input[type="file"] {
   border: 1px solid #ccc;
-  background-color: #f9f9f9;
-  width: 40vh;
-  height: 8vh;
+  margin-top: 7vh;
+  text-align: center;
+  cursor: pointer;
+  padding: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
 }
 
-/* Personaliza o botão de anexar imagem da roupa*/
-input[type="file"]::file-selector-button {
-  background-color: rgba(64, 123, 255, 1);
-  border: none;
-  color: white;
-  width: 25vh;
-  height: 4vh;
-  font-size: 2.4vh;
-  margin-bottom: 43vh;
+.foto-roupa:hover {
+  background-color: #f5f5f5;
+}
+
+/* Ajuste do SVG */
+.foto-roupa svg {
+  width: 10vh;
+  height: 10vh;
+  pointer-events: none; /* evita que o SVG bloqueie o clique */
+  color: rgba(63, 91, 203, 1);
 }
 
 .container-texto-galeria {

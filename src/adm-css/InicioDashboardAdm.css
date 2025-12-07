@@ -1,31 +1,56 @@
-.container {
-  display: flex;
-}
-
 .container-dashboard {
-  width: 60vh;
-  height: 35vh;
-  box-shadow: 0vh 0.3vh 0.4vh gray;
-  display: flex;
-  margin-left: 10vh;
-  margin-top: 7vh;
+  width: 170vh;
+  height: 100vh;
   background-color: white;
+  margin-left: 43vh;
+  margin-top: 3vh;
+  border-radius: 2vh;
 }
 
-.header-dashboard {
-  width: 60vh;
-  height: 7vh;
-  background-color: rgba(64, 123, 255, 1);
-}
-
-.texto-header-dashboard {
+.topo-container {
+  width: 170vh;
+  height: 6vh;
+  background-color: rgba(63, 91, 203, 1);
+  border-top-left-radius: 2vh;
+  border-top-right-radius: 2vh;
   color: white;
-  margin-left: 2.5vh;
-  margin-top: 1.5vh;
+  padding: 1vh 2vh;
   font-size: 3vh;
 }
 
-.container-dashboards {
-  margin-left: 40vh;
-  display: flex;
+.input-dashboard {
+  margin-left: 5vh;
+  margin-top: 5vh;
+  width: 40vh;
+  height: 5vh;
+  padding: 1vh;
+  border-radius: 0.6vh;
+  border-width: 0.3vh;
+  border-color: #d1d1d1;
+}
+
+.botao-pesquisar {
+  text-align: right;
+  margin-right: 4vh;
+}
+
+.botao-pesquisar button {
+  border: none;
+  padding: 1.5vh 2.6vh;
+  background-color: rgba(63, 91, 203, 1);
+  color: white;
+  border-radius: 0.7vh;
+  margin-bottom: 2vh;
+  cursor: pointer;
+}
+
+.botao-pesquisar button:hover {
+  background-color: rgb(95, 120, 223);
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #d1d1d1; /* cor da linha */
+  margin: 2vh;
 }

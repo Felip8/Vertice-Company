@@ -1,5 +1,7 @@
 Testando arquivo md
 
+cor azul do projeot: rgba(63, 91, 203, 1);
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

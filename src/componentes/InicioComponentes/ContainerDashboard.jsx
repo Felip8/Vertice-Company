@@ -2,18 +2,17 @@ import "../../adm-css/InicioDashboardAdm.css";
 export default function ContainerDashboard() {
   return (
     <>
-      <div className="container-dashboards">
-        <div className="container-dashboard">
-          <div className="header-dashboard">
-            <p className="texto-header-dashboard">Produtos cadastrados</p>
-          </div>
+      <div className="container-dashboard">
+        <div className="topo-container">Dashboard</div>
+        <input
+          type="text"
+          className="input-dashboard"
+          placeholder="Nome do produto"
+        />
+        <div className="botao-pesquisar">
+          <button>Pesquisar</button>
         </div>
-
-        <div className="container-dashboard">
-          <div className="header-dashboard">
-            <p className="texto-header-dashboard">Vendas</p>
-          </div>
-        </div>
+        <hr />
       </div>
     </>
   );
